@@ -1,0 +1,8 @@
+These scripts are designed to run unit tests for any changes related to the nomad-extip-manager bash block. Each script explains its expected results.
+
+Make sure to run the tests from inside a scripts folder so the scripts can access one another.
+
+Example:
+
+docker run -it --name test_nomad_extip_manager --privileged \
+  -v "C:\Folder\Which\Stores\Scripts:/scripts" ubuntu:latest bash
